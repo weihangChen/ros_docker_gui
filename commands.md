@@ -8,8 +8,7 @@ docker exec -it rosgui bash
 
 #set DISPLAY and run
 set-variable -name DISPLAY -value 172.22.188.193:0.0
-docker run --name rosgui -it --privileged -e DISPLAY=$DISPLAY -v /tmp/.X11-u
-nix:/tmp/.X11-unix rosgui
+docker run --name rosgui -it --privileged -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix rosgui
 
 # run firefox
 usr/bin/firefox
