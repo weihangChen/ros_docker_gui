@@ -3,7 +3,7 @@ We are working with Ros + Gazebo and we really want to ship a developer docker i
 - GUI support – showing Gazebo on windows 
 - remote python/C++ debugging configuration 
 
-So, the new developer or master students can easily start working on the algorithm instead of troubling with install and configure Ubuntu. This blog post is about docker and GUI signal forwarding from docker container (ubuntu) to windows. I make a video demonstrating a few user cases.
+So, the new developer or master students can easily start working on the algorithm instead of troubling with install and configure Ubuntu. The ros version is melodic, gazebo version is 9. This blog post is about docker and GUI signal forwarding from docker container (ubuntu) to windows. I make a video demonstrating a few user cases.
 
 1. Start Xming and start docker
 2. Download a git project that contains the dockerfiles needed

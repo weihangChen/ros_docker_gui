@@ -1,6 +1,0 @@
-
-
-# install gazebo
-apt-get install ros-melodic-gazebo-ros-pkgs
-
-# run gazebo
