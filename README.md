@@ -13,6 +13,17 @@ So, the new developer or master students can easily start working on the algorit
 
 For in-depth understanding, please read content below, As shown in this [video](https://www.youtube.com/watch?v=Jp58Osb1uFo&feature=youtu.be), x Window server is the interface transmitting signals between graphic card and GUI applications that run within an OS.
 
+![Figure1][1]
+
+[1]: https://github.com/weihangChen/mfbm_classification_tensorflow/blob/master/mfbm/images/fbm_h8.JPG "fbm_h8"
+
+
+
+
+![Figure2][2]
+
+[2]: https://github.com/weihangChen/mfbm_classification_tensorflow/blob/master/mfbm/images/fbm_h8.JPG "fbm_h8"
+
 
 
 The signals can be transmitted to local X client based on a protocol and they can also be transmitted to remote X client based on another protocol.  The detail instruction of making this work is in this [post](https://blogs.msdn.microsoft.com/jamiedalton/2018/05/17/windows-10-docker-gui/). First you need to install Xming and start it, so windows has X client that listens to the incoming signals. Of course, the signals need some instructions, so they know where to go as well, and it is done through setting the DISPLAY variable. Almost 100% of blog posts out there starts the GUI application as the last line of command in the Dockerfile.
