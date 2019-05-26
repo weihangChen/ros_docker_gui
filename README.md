@@ -22,7 +22,7 @@ For in-depth understanding, please read content below, As shown in this [video](
 
 ![Figure2][2]
 
-[2]: https://github.com/weihangChen/ros_docker_gui/blob/master/img/1.PNG "p2"
+[2]: https://github.com/weihangChen/ros_docker_gui/blob/master/img/2.PNG "p2"
 
 
 
