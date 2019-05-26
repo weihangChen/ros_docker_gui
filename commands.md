@@ -1,15 +1,10 @@
-#docker build/run/execute
-docker build -t rosgui ros_docker_gui
+#docker check images/container
 docker image list
 docker ps
+
+#docker build/run/execute
+docker build -t rosgui ros_docker_gui
 docker exec -it rosgui bash
-
-# Delete all containers
-docker rm $(docker ps -a -q)
-
-# Delete all images
-docker rmi $(docker images -q)
-
 
 #set DISPLAY and run
 set-variable -name DISPLAY -value 172.22.188.193:0.0
