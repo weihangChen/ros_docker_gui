@@ -20,9 +20,9 @@ For in-depth understanding, please read content below, As shown in this [video](
 
 
 
-![Figure2][2]
+![Figure3][3]
 
-[2]: https://github.com/weihangChen/ros_docker_gui/blob/master/img/2.PNG "p2"
+[3]: https://github.com/weihangChen/ros_docker_gui/blob/master/img/3.PNG "p3"
 
 
 
